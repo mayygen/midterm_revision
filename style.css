@@ -35,7 +35,7 @@ header{
 
 .aboutContainer{
   width: 80vw;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,6 +91,10 @@ p1{
 
 .mainContainer{
   row-gap: 10vw;
+}
+
+.aboutContainer{
+  height: 80vh;
 }
 
 p1{

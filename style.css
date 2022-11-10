@@ -1,0 +1,305 @@
+header{
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+@font-face {
+  font-family: walkway;
+  src: url(fonts/walkway.ttf);
+
+}
+.bgHome{
+  background:url(photos/homebg.jpeg) fixed center;
+  background-size: contain;
+}
+
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: walkway;
+  flex-direction: column;
+  row-gap: 20vw;
+}
+
+.nameContainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContainer{
+
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5vw;
+}
+p1{
+  font-size: 5vw;
+}
+
+
+h1{
+  font-size: 13vw;
+}
+
+h2{
+  font-size: 10vw;
+}
+#insta{
+  width:10vw;
+  padding-top:2vh;
+  padding-right:15px;
+}
+
+#twitter{
+  width:10vw;
+  padding-top: 2vh;
+  padding-right:8px;
+}
+
+#spotify{
+  width:10.5vw;
+  padding-top: 2vh;
+  padding-right:10.2px;
+  padding-left:5px;
+}
+
+#eden{
+  width:7.5vw;
+  padding-top: 2.2vh;
+}
+
+@media only screen and (min-width : 600px){
+
+.bgHome{
+    background:url(photos/homebg.jpeg) fixed center;
+  }
+
+.bgDisco{
+  background:url(photos/disco.gif) fixed center;
+}
+
+.bgityttmom{
+  background:url(photos/bgityttmom.jpeg) fixed center;
+}
+.bgvertigo{
+  background:url(photos/bgvertigo.jpg) fixed center;
+}
+
+.bgnoFuture{
+  background:url(photos/noFuture2.jpeg) fixed center;
+}
+
+
+.mainContainer{
+  row-gap: 10vw;
+}
+
+
+.futureboundContainer{
+  backdrop-filter: blur(4px);
+  padding: 4vw;
+  width: 80vw;
+  background: rgba(0, 0, 0, 0.4);
+
+}
+
+.nofutureContainer{
+  backdrop-filter: blur(3px);
+  width: 80vw;
+  padding: 5vw;
+  background: rgba(10, 41, 41, 0.5);
+
+}
+.vertigoContainer{
+  backdrop-filter: blur(3px);
+  padding: 5vw;
+  width: 80vw;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+h1{
+  font-size: 10vw;
+}
+
+
+.discoContainer{
+  margin-bottom: 10vw;
+}
+h2{
+  font-size: 7vw;
+}
+
+h3{
+  font-size: 5vw;
+  border-color: white;
+  border-style: dotted;
+  border-width: thin;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+h4{
+  font-size: 5vw;
+  padding: 2vw;
+  border-color: red;
+  border-style: dotted;
+  border-width: thin;
+}
+
+h5{
+  backdrop-filter: blur(5px);
+  font-size: 4vw;
+  background:rgba(0, 0, 0, 0.3);
+  padding: 2vw;
+  border-color: red;
+  border-style: dotted;
+  border-width: thin;
+}
+
+h6{
+  font-size: 5vw;
+  padding-top: 3vw;
+  border-color: rgb(191, 147, 199);
+  border-style: dotted;
+  border-width: medium;
+}
+
+
+
+.icons{
+  padding-top: 1vh;
+}
+
+a.icon1:link {opacity: 1;}
+a.icon1:hover {opacity: 0.6;}
+
+
+p2{
+  font-size: 7vw;
+  border-color: white;
+  padding: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+}
+
+p3{
+  font-size: 7vw;
+  border-color: white;
+  padding: 5vw;
+  border-style: dashed;
+  border-color: white;
+  border-width: thin;
+}
+
+p4{
+  font-size: 7vw;
+  border-color: white;
+  padding: 5vw;
+  border-style: dotted;
+  border-color: white;
+  border-width: medium;
+}
+
+p5{
+  font-size: 7vw;
+  border-color: white;
+  padding: 5vw;
+  border-style: dotted;
+  border-color: red;
+  border-width: medium;
+}
+
+
+#customers {
+  backdrop-filter: blur(10px);
+  font-family: walkway;
+  width: 80vw;
+  font-size: 2vw;
+}
+
+#customers td{
+  padding: 3vw;
+}
+
+#customers tr:nth-child(odd){background:rgba(0, 0, 0, 0.6);}
+#customers tr:nth-child(even){background:rgba(0, 0, 0, 0.4);}
+
+#customers tr:hover {background:rgba(56, 63, 140,0.8);}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background:rgba(255, 255, 255, 0.65);
+  color: black;
+}
+
+.trackList{
+  text-align: left;
+}
+
+img.imgIcons{
+  width: 18vw;
+  padding: 1vw;
+}
+
+img.listen{
+  opacity: 0.9;
+  width: 65vw;
+  padding-bottom: 3vw;
+  padding-top: 2vw;
+}
+img.listen:hover{
+  opacity: 0.7;
+}
+
+img.watch{
+  opacity: 0.7;
+  width: 65vw;
+  padding-bottom: 3vw;
+  padding-top: 2vw;
+}
+
+img.watch:hover{
+  opacity: 0.5;
+}
+
+a.socials:link{
+  opacity: 0.9;
+}
+
+a.socials:hover{
+  opacity: 0.6;
+}
+
+#insta{
+  width:6vw;
+}
+
+#twitter{
+  width:6vw;
+}
+
+#spotify{
+  width:6.5vw;
+  padding-right:10px;
+}
+
+#eden{
+  width:4.5vw;
+  padding-top: 2vh;
+}
+
+}
